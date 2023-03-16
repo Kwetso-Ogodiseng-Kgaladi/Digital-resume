@@ -1,0 +1,115 @@
+html {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    ;
+}
+
+
+img {
+
+    border-radius: 100px;
+    margin-left: 25px;
+    margin-right: 25px;
+    padding-left: 25px;
+    padding-top: 3%;
+    padding-right: 3px;
+}
+
+header {
+    background: url(src/images/bck2.jpg);
+    background-repeat: no-repeat;
+    text-align: center;
+    background-color: #FFE5D9;
+    background-size: cover;
+    /*margin-left: 3%;
+    padding-left: 3%;*/
+}
+
+
+body {
+    background: url(src/images/bck2.jpg);
+    background-color: #FFCAD4;
+    margin: 0%;
+    border-style: solid;
+    border-color: #000;
+    box-sizing: content-box;
+}
+
+
+article {
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 8px;
+}
+
+footer {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 15px;
+    padding-left: 10px;
+    padding-bottom: 15px;
+    background-color: #f8f8ff;
+
+}
+
+#element2 {
+    position: relative;
+    left: 10px;
+    right: 10px;
+}
+
+@media(min-width:400px) {
+    body {
+        color: #000;
+        background-color: brown;
+    }
+}
+@media(max-width:800px) {
+    body {
+        color: #000;
+        background-color: rgba(255, 0, 255, 0.463);
+    }
+
+}
+img {
+
+    border-radius: 100px;
+    margin-left: 25px;
+    margin-right: 25px;
+    padding-left: 25px;
+    padding-top: 3%;
+    padding-right: 3px;
+}
+
+.sidebar {
+    padding: 2rem;
+    flex: 2;
+    background-color: rgba(169, 169, 169, 0.542);
+}
+.nav-menu{
+    list-style: none;
+    padding: 0%;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: deeppink;
+}
+.socialmedia{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width:4rem ;
+    height:4rem ;
+    background: transparent;
+    border-radius: 15%;
+    font-size: 2rem;
+    color:;
+    margin: 3rem 1.5rem 3rem 0;
+    text-decoration: none;
+    transition: 2.5s ease;
+
+}
+
+.socialmedia a:hover{
+    background:pink;
+    color:white;
+    box-shadow: 0 0 1rem Pink;
+}
