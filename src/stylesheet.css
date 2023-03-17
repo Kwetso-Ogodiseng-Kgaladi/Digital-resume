@@ -15,38 +15,33 @@ img {
 }
 
 header {
-    background: url(src/images/bck2.jpg);
     background-repeat: no-repeat;
     text-align: center;
-    background-color: #FFE5D9;
+    background-color: #00a896;
     background-size: cover;
-    /*margin-left: 3%;
-    padding-left: 3%;*/
+    margin-left: 3%;
+    padding-left: 1%;
+    padding-right: 2%;
 }
 
 
 body {
-    background: url(src/images/bck2.jpg);
-    background-color: #FFCAD4;
+    background-color: white;
     margin: 0%;
-    border-style: solid;
-    border-color: #000;
     box-sizing: content-box;
 }
 
 
 article {
+    background-color: cadetblue;
     margin-left: 5%;
     margin-right: 5%;
-    padding-left: 8px;
+    padding-left: 5px;
 }
 
 footer {
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-bottom: 15px;
-    padding-left: 10px;
-    padding-bottom: 15px;
+    display: flex;
+    flex-wrap: wrap;
     background-color: #f8f8ff;
 
 }
@@ -57,19 +52,7 @@ footer {
     right: 10px;
 }
 
-@media(min-width:400px) {
-    body {
-        color: #000;
-        background-color: brown;
-    }
-}
-@media(max-width:800px) {
-    body {
-        color: #000;
-        background-color: rgba(255, 0, 255, 0.463);
-    }
 
-}
 img {
 
     border-radius: 100px;
@@ -85,31 +68,60 @@ img {
     flex: 2;
     background-color: rgba(169, 169, 169, 0.542);
 }
-.nav-menu{
+
+.nav-menu {
     list-style: none;
     padding: 0%;
     display: flex;
     justify-content: space-evenly;
-    background-color: deeppink;
+    background-color: #F4F1DE;
 }
-.socialmedia{
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    width:4rem ;
-    height:4rem ;
+/**social media icons**/
+.socialmedia {
+    display: grid;
+    display: flexbox;
+    width: 4rem;
+    height: 4rem;
     background: transparent;
     border-radius: 15%;
     font-size: 2rem;
-    color:;
-    margin: 3rem 1.5rem 3rem 0;
     text-decoration: none;
     transition: 2.5s ease;
 
 }
 
-.socialmedia a:hover{
-    background:pink;
-    color:white;
+.socialmedia a:hover {
+    background: pink;
+    color: white;
     box-shadow: 0 0 1rem Pink;
+}
+
+.flexbox-container {
+    display: flex;
+    background-color: #02c39a;
+
+}
+
+.nav-menu:hover {
+    background-color: powderblue;
+}
+
+.submit:hover {
+    background-color: blue;
+}
+
+.form {
+  
+    align-content: center;
+    font-size: small;
+    padding-bottom: 50px;
+    padding-top: 45px;
+    margin: bottom 90px;
+    padding-right: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+.skills{
+    color: black;
 }
